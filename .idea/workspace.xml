@@ -38,10 +38,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Python" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Python" />
+      </console-settings>
+    </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Plank\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588245665739</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Создан проект в PyCharm">
+      <created>1588253662899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588253662899</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,18 +101,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Создан проект в PyCharm" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="585" y="202" key="#Inspections" timestamp="1588255808648">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="585" y="202" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1588255808648" />
     <state x="839" y="226" key="RollbackChangesDialog" timestamp="1588245120256">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="839" y="226" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588245120256" />
-    <state x="460" y="169" key="SettingsEditor" timestamp="1588245292527">
+    <state x="460" y="169" key="SettingsEditor" timestamp="1588256130605">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588245292527" />
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1588245738873">
+    <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588256130605" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1588253669418">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588245738873" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588253669417" />
     <state x="768" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588245301846">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
