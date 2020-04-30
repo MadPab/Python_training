@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="" />
+    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Создан проект в PyCharm">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +51,21 @@
       <option name="presentableId" value="Default" />
       <updated>1588244358438</updated>
     </task>
+    <task id="LOCAL-00001" summary="Улучшено описание репозитория">
+      <created>1588245607349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588245607349</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Создан проект в PyCharm">
+      <created>1588245665739</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588245665739</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -61,6 +78,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Улучшено описание репозитория" />
+    <MESSAGE value="Создан проект в PyCharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан проект в PyCharm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="839" y="226" key="RollbackChangesDialog" timestamp="1588245120256">
@@ -71,6 +94,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588245292527" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1588245738873">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588245738873" />
     <state x="768" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588245301846">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
