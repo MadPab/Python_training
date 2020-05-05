@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Создание контакта (правки)">
+    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Создание вспомогательных параметров">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bG2xmV5qZ94r0Fwz7y6lcKUrDw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -169,7 +173,28 @@
       <option name="project" value="LOCAL" />
       <updated>1588701139399</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Создание вспомогательных методов (контакт)">
+      <created>1588701778489</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588701778489</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Создание вспомогательных методов (контакт)">
+      <created>1588701791703</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588701791703</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Создание вспомогательных параметров">
+      <created>1588702323938</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588702323938</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +217,9 @@
     <MESSAGE value="Формирование в параметры" />
     <MESSAGE value="Создание контакта" />
     <MESSAGE value="Создание контакта (правки)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание контакта (правки)" />
+    <MESSAGE value="Создание вспомогательных методов (контакт)" />
+    <MESSAGE value="Создание вспомогательных параметров" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание вспомогательных параметров" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="202" key="#Inspections" timestamp="1588700998796">
@@ -207,22 +234,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="738" y="186" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1588701050745" />
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1588701064559">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1588704741274">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588701064559" />
-    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1588701064558">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588704741274" />
+    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1588704741274">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588701064558" />
-    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1588701064558">
+    <state width="1897" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588704741274" />
+    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1588704741274">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588701064558" />
-    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1588701064558">
+    <state width="1897" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588704741274" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1588704741274">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588701064558" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588704741274" />
     <state x="839" y="226" key="RollbackChangesDialog" timestamp="1588259766048">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -231,17 +258,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588701238161" />
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1588696497961">
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1588702332844">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588696497961" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588702332844" />
     <state x="768" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588245301846">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="768" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588245301846" />
-    <state x="483" y="211" width="944" height="564" key="refactoring.ChangeSignatureDialog" timestamp="1588696308384">
+    <state x="483" y="211" width="944" height="564" key="refactoring.ChangeSignatureDialog" timestamp="1588702113585">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="483" y="211" width="944" height="564" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588696308384" />
+    <state x="483" y="211" width="944" height="564" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588702113585" />
   </component>
 </project>
