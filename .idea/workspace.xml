@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Создание контакта">
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Создание контакта (правки)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/env/Scripts" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -163,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588700010136</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Создание контакта (правки)">
+      <created>1588701139399</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588701139399</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,7 +191,8 @@
     <MESSAGE value="Формирование в методы" />
     <MESSAGE value="Формирование в параметры" />
     <MESSAGE value="Создание контакта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание контакта" />
+    <MESSAGE value="Создание контакта (правки)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание контакта (правки)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="202" key="#Inspections" timestamp="1588700998796">
@@ -220,10 +227,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="839" y="226" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588259766048" />
-    <state x="460" y="169" key="SettingsEditor" timestamp="1588701061805">
+    <state x="460" y="169" key="SettingsEditor" timestamp="1588701238161">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588701061805" />
+    <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588701238161" />
     <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1588696497961">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
