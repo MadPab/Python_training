@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Добавлен тест на создание групп">
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -47,6 +48,28 @@
         <option name="myModuleName" value="Python" />
       </console-settings>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unittests in test_add_group.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Plank\PycharmProjects\Training\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in test_add_group.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Plank\AppData\Roaming\Subversion</configuration>
@@ -87,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588256361484</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавлен тест на создание групп">
+      <created>1588691715670</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588691715670</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,25 +139,56 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на создание групп" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="202" key="#Inspections" timestamp="1588255808648">
+    <state x="585" y="202" key="#Inspections" timestamp="1588694816303">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="202" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1588255808648" />
+    <state x="585" y="202" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1588694816303" />
+    <state x="668" y="125" key="#Unittests_in_test_add_group.py" timestamp="1588694608878">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="668" y="125" key="#Unittests_in_test_add_group.py/0.0.1920.1050@0.0.1920.1050" timestamp="1588694608878" />
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1588694617044">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1588694617044" />
+    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1588694617044">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1897" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1588694617044" />
+    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1588694617044">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1897" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1588694617044" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1588694617044">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1897" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1588694617044" />
     <state x="839" y="226" key="RollbackChangesDialog" timestamp="1588259766048">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="839" y="226" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588259766048" />
-    <state x="460" y="169" key="SettingsEditor" timestamp="1588256130605">
+    <state x="460" y="169" key="SettingsEditor" timestamp="1588694834198">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588256130605" />
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1588259329609">
+    <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588694834198" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1588691722570">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588259329609" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588691722570" />
     <state x="768" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588245301846">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="768" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588245301846" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_add_group.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
