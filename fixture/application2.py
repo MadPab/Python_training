@@ -9,6 +9,7 @@ class Application2:
         self.wd = WebDriver()
         self.wd.implicitly_wait(60)
         self.session2 = SessionHelper(self)
+        self.group2 = GroupHelper(self)
 
     def open_home_page(self):
         wd = self.wd

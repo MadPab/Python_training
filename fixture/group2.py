@@ -3,6 +3,10 @@ class GroupHelper:
     def __int__(self, app):
         self.app = app
 
+    def open_home_page(self):
+        wd = self.app.wd
+        wd.find_element_by_name("add").click()
+
     def create(self, firstname, lastname, title, company, address, home, mobile):
         wd = self.app.wd
         # fill contact form
@@ -30,3 +34,18 @@ class GroupHelper:
         wd.find_element_by_name("mobile").send_keys(mobile)
         # submit contact creation
         wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
+        self.return_home_page()
+
+    def delete_first_contact(self):
+        wd = self.app.wd
+        self.open_home_page()
+        # select first group
+        wd.find_element_by_name("selected[]").click()
+        # submit deletion
+        wd.find_element_by_name("delete").click()
+        self.return_home_page()
+
+    def return_home_page(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("home").click()
+        
