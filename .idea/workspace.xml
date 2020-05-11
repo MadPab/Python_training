@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Создание вспомогательных параметров (правки)">
+    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Создание фикстур">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cont.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application2.py" beforeDir="false" afterPath="$PROJECT_DIR$/application2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
@@ -63,6 +66,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Git\Python\model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Git\Python" />
     </key>
@@ -79,7 +85,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -95,7 +101,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_contact.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_contact.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -222,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588705390825</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Создание фикстур">
+      <created>1589215339526</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589215339526</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,13 +261,18 @@
     <MESSAGE value="Создание вспомогательных методов (контакт)" />
     <MESSAGE value="Создание вспомогательных параметров" />
     <MESSAGE value="Создание вспомогательных параметров (правки)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание вспомогательных параметров (правки)" />
+    <MESSAGE value="Создание фикстур" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание фикстур" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="202" key="#Inspections" timestamp="1588700998796">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="585" y="202" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1588700998796" />
+    <state x="551" y="182" width="818" height="731" key="#Intentions" timestamp="1589215984719">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="551" y="182" width="818" height="731" key="#Intentions/0.0.1920.1050@0.0.1920.1050" timestamp="1589215984719" />
     <state x="668" y="125" key="#Unittests_in_test_add_group.py" timestamp="1588736314962">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -287,10 +305,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588701238161" />
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1588704819798">
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1589215351085">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588704819798" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589215351085" />
     <state x="768" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588245301846">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
