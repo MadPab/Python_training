@@ -11,6 +11,13 @@ class Application2:
         self.session2 = SessionHelper(self)
         self.group2 = GroupHelper(self)
 
+    def is_valid(self):
+        try:
+            self.wd.current_url
+            return True
+        except:
+            return False
+
     def open_home_page(self):
         wd = self.wd
         wd.get("http://localhost/addressbook/edit.php")

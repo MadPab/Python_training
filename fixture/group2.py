@@ -7,22 +7,22 @@ class GroupHelper:
         wd = self.app.wd
         wd.find_element_by_name("add").click()
 
-    def create(self, firstname, lastname, title, company, address, home, mobile):
+    def create(self, contact):
         wd = self.app.wd
-        self.fill_contact_form(address, company, firstname, home, lastname, mobile, title)
+        self.fill_contact_form(contact)
         # submit contact creation
         wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
         self.return_home_page()
 
-    def fill_contact_form(self, group2):
+    def fill_contact_form(self, contact):
         wd = self.app.wd
-        self.change_fill_value("contact_firstname", group2.firstname)
-        self.change_fill_value("contact_lastname", group2.lastname)
-        self.change_fill_value("contact_title", group2.title)
-        self.change_fill_value("contact_company", group2.company)
-        self.change_fill_value("contact_address", group2.address)
-        self.change_fill_value("contact_home", group2.home)
-        self.change_fill_value("contact_mobile", group2.mobile)
+        self.change_fill_value("contact_firstname", contact.firstname)
+        self.change_fill_value("contact_lastname", contact.lastname)
+        self.change_fill_value("contact_title", contact.title)
+        self.change_fill_value("contact_company", contact.company)
+        self.change_fill_value("contact_address", contact.address)
+        self.change_fill_value("contact_home", contact.home)
+        self.change_fill_value("contact_mobile", contact.mobile)
 
     def change_fill_value(self, field_firstname, text):
         wd = self.app.wd
