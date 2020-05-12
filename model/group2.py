@@ -1,5 +1,5 @@
 class Group:
-    def __int__(self, firstname, lastname, title, company, address, home, mobile):
+    def __int__(self, firstname=None, lastname=None, title=None, company=None, address=None, home=None, mobile=None):
         self.firstname = firstname
         self.lastname = lastname
         self.title = title
