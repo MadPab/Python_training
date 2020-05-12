@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Quadratic">
+    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Оптимизация (использование if, then, else)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589221709892</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Оптимизация (использование if, then, else)">
+      <created>1589223753105</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1589223753105</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,7 +329,8 @@
     <MESSAGE value="Выделен класс для работы с группами" />
     <MESSAGE value="Создание теста для удаления группы\контакта" />
     <MESSAGE value="Quadratic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quadratic" />
+    <MESSAGE value="Оптимизация (использование if, then, else)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Оптимизация (использование if, then, else)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="202" key="#Inspections" timestamp="1588700998796">
@@ -342,22 +349,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="738" y="186" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1588701050745" />
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1589223559497">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1589224142671">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589223559497" />
-    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1589223559497">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589224142671" />
+    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1589224142670">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589223559497" />
-    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1589223559497">
+    <state width="1897" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589224142670" />
+    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1589224142670">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589223559497" />
-    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1589223559497">
+    <state width="1897" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589224142670" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1589224142670">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589223559497" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589224142670" />
     <state x="839" y="226" key="RollbackChangesDialog" timestamp="1588259766048">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -366,10 +373,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588701238161" />
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1589221713387">
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1589223761712">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589221713387" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589223761712" />
     <state x="768" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588245301846">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
