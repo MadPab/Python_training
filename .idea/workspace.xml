@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Предусловия">
+    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Лишние переходы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_del_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_modify_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_modify_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,14 +65,14 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\Python" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Git\Python" />
       <recent name="C:\Git\Python\test" />
       <recent name="C:\Git\Python\fixture" />
       <recent name="C:\Git\Python\model" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Git\Python" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest in test_del_group.py">
@@ -342,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589304605212</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Лишние переходы">
+      <created>1589306084381</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1589306084381</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,7 +388,8 @@
     <MESSAGE value="Оптимизация (использование if, then, else)" />
     <MESSAGE value="Оптимизация (валидации фикстуры)" />
     <MESSAGE value="Предусловия" />
-    <option name="LAST_COMMIT_MESSAGE" value="Предусловия" />
+    <MESSAGE value="Лишние переходы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Лишние переходы" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="202" key="#Inspections" timestamp="1588700998796">
@@ -392,26 +404,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="668" y="125" key="#Unittests_in_test_add_group.py/0.0.1920.1050@0.0.1920.1050" timestamp="1588736314962" />
-    <state x="738" y="186" key="FileChooserDialogImpl" timestamp="1588701050745">
+    <state x="738" y="186" key="FileChooserDialogImpl" timestamp="1589955543428">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="738" y="186" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1588701050745" />
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1589224142671">
+    <state x="738" y="186" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1589955543428" />
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1589979606365">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589224142671" />
-    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1589224142670">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589979606365" />
+    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1589979606365">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589224142670" />
-    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1589224142670">
+    <state width="1897" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589979606365" />
+    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1589979606365">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589224142670" />
-    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1589224142670">
+    <state width="1897" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589979606365" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1589979606365">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589224142670" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589979606365" />
     <state x="839" y="226" key="RollbackChangesDialog" timestamp="1588259766048">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -420,10 +432,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588701238161" />
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1589304612579">
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1589306091511">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589304612579" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589306091511" />
     <state x="768" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588245301846">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
