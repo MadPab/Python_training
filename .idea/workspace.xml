@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Лишние переходы">
+    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="- Сортировка&#10;- Кеширование и хеширование&#10;- Немного случайностей">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_modify_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_modify_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589306084381</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="- Сортировка&#10;- Кеширование и хеширование&#10;- Немного случайностей">
+      <created>1590513940125</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1590513940125</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,7 +393,8 @@
     <MESSAGE value="Оптимизация (валидации фикстуры)" />
     <MESSAGE value="Предусловия" />
     <MESSAGE value="Лишние переходы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Лишние переходы" />
+    <MESSAGE value="- Сортировка&#10;- Кеширование и хеширование&#10;- Немного случайностей" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Сортировка&#10;- Кеширование и хеширование&#10;- Немного случайностей" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="202" key="#Inspections" timestamp="1588700998796">
@@ -432,10 +437,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588701238161" />
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1589306091511">
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1590513951976">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589306091511" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590513951976" />
     <state x="768" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588245301846">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
