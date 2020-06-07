@@ -5,9 +5,27 @@ class GroupHelper:
     def __int__(self, app):
         self.app = app
 
+    group_cache = None
+
+    def get_group_list(self):
+        if self.group_cache is None:
+            wd = self.app.wd
+            self.open_groups_page()
+            self.group_cache = []
+            for element in wd.find_elements_by_css_selector("span.group"):
+                text = element.text
+                id = element.find_element_by_name("selected[]").get_attribute("value")
+                self.group_cache.append(Group(name=text, id=id))
+        return list(self.group_cache)
+
+    def count(self):
+        wd = self.app.wd
+        self.open_groups_page()
+        return len(wd.find_elements_by_name("selected[]"))
+
     def open_groups_page(self):
         wd = self.app.wd
-        if not wd.current_url.endswith("/group.php") and len(wd.find_elements_by_name("new")) > 0:
+        if not (wd.current_url.endswith("/group.php") and len(wd.find_elements_by_name("new")) > 0):
             wd.find_element_by_link_text("groups").click()
 
     def create(self, group):
@@ -31,8 +49,8 @@ class GroupHelper:
         wd = self.app.wd
         if text is not None:
             wd.find_element_by_name(field_name).click()
-            wd.find_element_by_name(field_name).click()
             wd.find_element_by_name(field_name).clear()
+            wd.find_element_by_name(field_name).send_keys(text)
 
     def select_first_group(self):
         wd = self.app.wd
@@ -54,8 +72,8 @@ class GroupHelper:
         self.return_to_groups_page()
         self.group_cache = None
 
-    def modify_first_group(self):
-        self.modify_group_by_index(0)
+    def modify_first_group(self, new_group_data):
+        self.modify_group_by_index(0, new_group_data=new_group_data)
 
     def modify_group_by_index(self, index, new_group_data):
         wd = self.app.wd
@@ -74,20 +92,25 @@ class GroupHelper:
         wd = self.app.wd
         wd.find_element_by_link_text("group page").click()
 
-    def count(self):
+    def edit_first_group(self, group):
         wd = self.app.wd
         self.open_groups_page()
-        return len(wd.find_elements_by_name("selected[]").click())
+        # select first group
+        wd.find_element_by_name("selected[]").click()
+        # submit edit group
+        wd.find_element_by_name("edit").click()
+        # fill group form
+        wd.find_element_by_name("group_name").click()
+        wd.find_element_by_name("group_name").clear()
+        wd.find_element_by_name("group_name").send_keys(group.name)
+        wd.find_element_by_name("group_header").click()
+        wd.find_element_by_name("group_header").clear()
+        wd.find_element_by_name("group_header").send_keys(group.header)
+        wd.find_element_by_name("group_footer").click()
+        wd.find_element_by_name("group_footer").clear()
+        wd.find_element_by_name("group_footer").send_keys(group.footer)
+        # submit update
+        wd.find_element_by_name("update").click()
+        self.return_to_groups_page()
 
-    group_cache = None
 
-    def get_group_list(self):
-        if self.group_cache is None:
-            wd = self.app.wd
-            self.open_groups_page()
-            self.group_cache = []
-            for element in wd.find_elements_by_css_selector("span.group"):
-                text = element.text
-                id = element.find_elements_by_name("selected[]").get_attribute("value")
-                groups.append(Group(name=text, id=id))
-        return list(self.group_cache)

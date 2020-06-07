@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Улучшение функции чтения о пользователе">
+    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Проверка телефонов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../autotest" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -386,7 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590690003146</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Проверка телефонов">
+      <created>1590991326577</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1590991326577</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Проверка телефонов">
+      <created>1590991339556</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1590991339556</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +442,8 @@
     <MESSAGE value="Лишние переходы" />
     <MESSAGE value="- Сортировка&#10;- Кеширование и хеширование&#10;- Немного случайностей" />
     <MESSAGE value="Улучшение функции чтения о пользователе" />
-    <option name="LAST_COMMIT_MESSAGE" value="Улучшение функции чтения о пользователе" />
+    <MESSAGE value="Проверка телефонов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проверка телефонов" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="202" key="#Inspections" timestamp="1588700998796">
@@ -439,10 +458,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="668" y="125" key="#Unittests_in_test_add_group.py/0.0.1920.1050@0.0.1920.1050" timestamp="1588736314962" />
-    <state x="738" y="186" key="FileChooserDialogImpl" timestamp="1589955543428">
+    <state x="738" y="186" key="FileChooserDialogImpl" timestamp="1591262247449">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="738" y="186" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1589955543428" />
+    <state x="738" y="186" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1591262247449" />
     <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1590991229776">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -459,18 +478,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1897" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590991229776" />
-    <state x="839" y="226" key="RollbackChangesDialog" timestamp="1588259766048">
+    <state x="839" y="226" key="RollbackChangesDialog" timestamp="1591152626134">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="839" y="226" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588259766048" />
+    <state x="839" y="226" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591152626134" />
     <state x="460" y="169" key="SettingsEditor" timestamp="1588701238161">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="460" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588701238161" />
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1590690011640">
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2" timestamp="1590991345538">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590690011640" />
+    <state x="551" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590991345538" />
     <state x="768" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588245301846">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
