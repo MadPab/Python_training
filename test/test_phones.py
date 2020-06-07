@@ -17,4 +17,5 @@ def test_phones_on_contact_view_page(app):
     assert contact_from_view_page.secondaryphone == contact_from_edit_page.secondaryphone
 
 def clear(s):
-    re.sub("[() -]", "", s)
+   return re.sub("[() -]", "", s)
+
