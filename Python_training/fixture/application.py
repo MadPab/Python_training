@@ -1,8 +1,8 @@
 # from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium import webdriver
-from fixture.session import SessionHelper
-from fixture.group import GroupHelper
-from fixture.contact import ContactHelper
+from Python_training.fixture.session import SessionHelper
+from Python_training.fixture.group import GroupHelper
+from Python_training.fixture.contact import ContactHelper
 
 
 class Application:

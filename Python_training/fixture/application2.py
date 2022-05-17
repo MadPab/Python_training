@@ -1,6 +1,6 @@
 from selenium.webdriver.firefox.webdriver import WebDriver
-from fixture.session2 import SessionHelper
-from fixture.group2 import GroupHelper
+from Python_training.fixture.session2 import SessionHelper
+from Python_training.fixture.group2 import GroupHelper
 
 
 class Application2:

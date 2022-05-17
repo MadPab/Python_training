@@ -1,4 +1,4 @@
-from model.group import Group
+from Python_training.model.group import Group
 from random import randrange
 
 def test_modify_group_name(app):

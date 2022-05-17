@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from model.group import Group
+from Python_training.model.group import Group
 
 
 

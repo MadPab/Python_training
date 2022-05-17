@@ -1,4 +1,4 @@
-from model.contact import Contact
+from Python_training.model.contact import Contact
 import re
 
 class ContactHelper:

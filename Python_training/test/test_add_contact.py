@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from model.group2 import Group
+from Python_training.model.group2 import Group
 
 
 def test_add_contact(app):
