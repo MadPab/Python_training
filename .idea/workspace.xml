@@ -19,13 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="Remember">
-      <change afterPath="$PROJECT_DIR$/Python_training/test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_training/fixture/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_training/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Remember_all/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/Remember_all/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Remember_all/test_add_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/Remember_all/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +52,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Python_training/Remember_all/env/Scripts/python.exe",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Python_training/Remember_all/env/Scripts/python.exe&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Python" is-module-sdk="true">
@@ -82,7 +81,7 @@
       <recent name="C:\Git\Python\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_add_group.py (1)">
+  <component name="RunManager" selected="Python tests.pytest in test_add_contact.py">
     <configuration name="pytest for Puthon_training.test.test_phones.test_phones_on_contact_view_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,9 +164,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_add_group.py (1)" />
-        <item itemvalue="Python tests.pytest for test_add_group.test_add_group.test_add_group" />
         <item itemvalue="Python tests.pytest in test_add_contact.py" />
+        <item itemvalue="Python tests.pytest in test_add_group.py" />
+        <item itemvalue="Python tests.pytest for test_add_group.test_add_group.test_add_group" />
         <item itemvalue="Python tests.pytest in C:/Python_training/Remember_all/env/test_add_group.py" />
         <item itemvalue="Python tests.pytest for Puthon_training.test.test_phones.test_phones_on_contact_view_page" />
       </list>
@@ -416,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652791808630</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add tests">
+      <created>1652856625697</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1652856625697</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Улучшено описание репозитория" />
     <MESSAGE value="Создан проект в PyCharm" />
     <MESSAGE value="Добавлен тест на создание групп" />
     <MESSAGE value="Формирование в методы" />
@@ -456,6 +461,7 @@
     <MESSAGE value="Проверка телефонов" />
     <MESSAGE value="Реструктуризация, испроавления" />
     <MESSAGE value="Remember" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remember" />
+    <MESSAGE value="add tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests" />
   </component>
 </project>

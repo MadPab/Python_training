@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from selenium.webdriver.firefox.webdriver import WebDriver
+from .cont import Contact
 import unittest
 
 def is_alert_present(wd):
@@ -20,7 +21,7 @@ class test_add_contact(unittest.TestCase):
         wd = self.wd
         self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
-        self.create_contact(wd, name="abc", lastname="def")
+        self.create_contact(wd, Contact(name="abc", lastname="def"))
         self.return_to_home_page(wd)
         self.logout(wd)
         self.assertTrue(success)
@@ -30,7 +31,7 @@ class test_add_contact(unittest.TestCase):
         wd = self.wd
         self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
-        self.create_contact(wd, name="", lastname="")
+        self.create_contact(wd, Contact(name="", lastname=""))
         self.return_to_home_page(wd)
         self.logout(wd)
         self.assertTrue(success)
@@ -46,16 +47,16 @@ class test_add_contact(unittest.TestCase):
         wd.find_element_by_name("pass").send_keys(password)
         wd.find_element_by_xpath("//input[@value='Login']").click()
 
-    def create_contact(self, wd, name, lastname):
+    def create_contact(self, wd, contact):
         # init contact page
         wd.find_element_by_link_text("add new").click()
         # fill contact form
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").clear()
-        wd.find_element_by_name("firstname").send_keys(name)
+        wd.find_element_by_name("firstname").send_keys(contact.name)
         wd.find_element_by_name("lastname").click()
         wd.find_element_by_name("lastname").clear()
-        wd.find_element_by_name("lastname").send_keys(lastname)
+        wd.find_element_by_name("lastname").send_keys(contact.lastname)
         # submit contact creation
         wd.find_element_by_name("submit").click()
 

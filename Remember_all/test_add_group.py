@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from selenium.webdriver.firefox.webdriver import WebDriver
 import unittest
-from group import Group
+from .group import Group
 
 def is_alert_present(wd):
     try:
@@ -9,6 +9,7 @@ def is_alert_present(wd):
         return True
     except:
         return False
+
 
 class test_add_group(unittest.TestCase):
 
@@ -72,6 +73,7 @@ class test_add_group(unittest.TestCase):
 
     def tearDown(self):
         self.wd.quit()
+
 
 if __name__ == "__main__":
     unittest.main()
