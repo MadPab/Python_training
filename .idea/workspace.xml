@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Remember_all/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Remember_all/test/test_add_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Remember_all/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/Remember_all/test/test_add_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/cont.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/group.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/test_add_contact.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/test_add_group.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Remember_all" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,15 +58,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Remember_all&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Python_training",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Python" is-module-sdk="true">
@@ -71,11 +80,11 @@
       <recent name="C:\Git\Python" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Python_training\Remember_all" />
+      <recent name="C:\Python_training\Remember" />
       <recent name="C:\Python_training\Puthon_training" />
       <recent name="C:\Git\Python" />
       <recent name="C:\Git\Python\test" />
-      <recent name="C:\Git\Python\fixture" />
-      <recent name="C:\Git\Python\model" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest in test_add_group.py">
@@ -95,39 +104,39 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_group.test_add_group.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_add_group.test_add_empty_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Remember_all" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Remember_all/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group.test_add_group.test_add_group&quot;" />
+      <option name="_new_target" value="&quot;test_add_group.test_add_empty_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in C:/Python_training/Remember_all/env/test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_add_group.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Remember_all/env" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Remember_all/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Remember_all/env/test_add_group.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_add_group.test_add_group&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_add_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in C:/Python_training/Remember_all/test_add_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,7 +152,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+    <configuration name="pytest in C:/Python_training/Remember_all/test_add_group.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,12 +168,29 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Remember_all/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Remember_all/test/test_add_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_add_group.py" />
+        <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
+        <item itemvalue="Python tests.pytest for test_add_group.test_add_empty_group" />
         <item itemvalue="Python tests.pytest for Remember_all.test_add_group.test_add_group" />
-        <item itemvalue="Python tests.pytest in test_add_contact.py" />
-        <item itemvalue="Python tests.pytest for test_add_group.test_add_group.test_add_group" />
-        <item itemvalue="Python tests.pytest in C:/Python_training/Remember_all/env/test_add_group.py" />
+        <item itemvalue="Python tests.pytest in C:/Python_training/Remember_all/test_add_contact.py" />
       </list>
     </recent_temporary>
   </component>
@@ -432,7 +458,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653018634131</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="separation_2">
+      <created>1653018904059</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1653018904059</updated>
+    </task>
+    <task id="LOCAL-00038" summary="delete pyt">
+      <created>1653019038078</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1653019038078</updated>
+    </task>
+    <task id="LOCAL-00039" summary="restructurization">
+      <created>1653033682583</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1653033682583</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -447,9 +494,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Формирование в методы" />
-    <MESSAGE value="Формирование в параметры" />
-    <MESSAGE value="Создание контакта" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Remember_all" />
+    </ignored-roots>
     <MESSAGE value="Создание контакта (правки)" />
     <MESSAGE value="Создание вспомогательных методов (контакт)" />
     <MESSAGE value="Создание вспомогательных параметров" />
@@ -472,6 +519,9 @@
     <MESSAGE value="add tests" />
     <MESSAGE value="add instance" />
     <MESSAGE value="separation" />
-    <option name="LAST_COMMIT_MESSAGE" value="separation" />
+    <MESSAGE value="separation_2" />
+    <MESSAGE value="delete pyt" />
+    <MESSAGE value="restructurization" />
+    <option name="LAST_COMMIT_MESSAGE" value="restructurization" />
   </component>
 </project>
