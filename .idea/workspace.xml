@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928316ee-7cfb-4085-8572-e57be7c308de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Remember_all/test/test_add_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remember_all/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/Remember_all/test/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Remember_all" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -425,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652933703825</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="separation">
+      <created>1653018634131</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1653018634131</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавлен тест на создание групп" />
     <MESSAGE value="Формирование в методы" />
     <MESSAGE value="Формирование в параметры" />
     <MESSAGE value="Создание контакта" />
@@ -465,6 +471,7 @@
     <MESSAGE value="Remember" />
     <MESSAGE value="add tests" />
     <MESSAGE value="add instance" />
-    <option name="LAST_COMMIT_MESSAGE" value="add instance" />
+    <MESSAGE value="separation" />
+    <option name="LAST_COMMIT_MESSAGE" value="separation" />
   </component>
 </project>
