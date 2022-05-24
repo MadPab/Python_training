@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from Python_training.model.cont import Contact
-from Python_training.fixture.app_contact import ApplicationContact
+from Remember_all.model.cont import Contact
+from Remember_all.fixture.app_contact import ApplicationContact
 import pytest
 
 
