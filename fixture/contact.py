@@ -1,15 +1,18 @@
 import re
-
 from selenium.webdriver.common.by import By
 from Remember_all.model.cont import Contact
 
 
 class ContactHelper:
-
     contact_cache = None
 
     def __init__(self, app):
         self.app = app
+
+    def return_to_home_page(self):
+        wd = self.app.wd
+        if not (wd.current_url.endswith("/addressbook/")):
+            wd.find_element(By.LINK_TEXT, "home").click()
 
     def select_contact_by_index(self, index):
         wd = self.app.wd
@@ -19,16 +22,29 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_element(By.LINK_TEXT, "add new").click()
         self.fill_contact_form(contact)
-        wd.find_element(By.NAME, "submit").click()
+        wd.find_element(By.XPATH, "//input[@name='submit'][2]").click()
         self.return_to_home_page()
 
     def fill_contact_form(self, contact):
+        wd = self.app.wd
         self.change_field_name("firstname", contact.firstname)
+        self.change_field_name("middlename", contact.middlename)
         self.change_field_name("lastname", contact.lastname)
+        self.change_field_name("nickname", contact.nickname)
+        self.change_field_name("title", contact.title)
+        self.change_field_name("company", contact.company)
+        self.change_field_name("address", contact.address)
         self.change_field_name("home", contact.homephone)
         self.change_field_name("mobile", contact.mobilephone)
         self.change_field_name("work", contact.workphone)
+        self.change_field_name("fax", contact.fax)
+        self.change_field_name("email", contact.email)
+        self.change_field_name("email2", contact.email2)
+        self.change_field_name("email3", contact.email3)
+        self.change_field_name("homepage", contact.homepage)
+        self.change_field_name("address2", contact.address2)
         self.change_field_name("phone2", contact.secondaryphone)
+        self.change_field_name("notes", contact.notes)
 
     def change_field_name(self, field_name, text):
         wd = self.app.wd
@@ -36,6 +52,26 @@ class ContactHelper:
             wd.find_element(By.NAME, field_name).click()
             wd.find_element(By.NAME, field_name).clear()
             wd.find_element(By.NAME, field_name).send_keys(text)
+
+    def count(self):
+        wd = self.app.wd
+        self.return_to_home_page()
+        return len(wd.find_elements(By.CSS_SELECTOR, 'tr[name="entry"]'))
+
+    def get_contact_list(self):
+        if self.contact_cache is None:
+            wd = self.app.wd
+            self.return_to_home_page()
+            self.contact_cache = []
+            for element in wd.find_elements(By.CSS_SELECTOR, ' tr[name="entry"]'):
+                cells = element.find_elements(By.TAG_NAME, 'td')
+                lastname = element.find_element(By.XPATH, "td[2]").text
+                firstname = element.find_element(By.XPATH, "td[3]").text
+                id_contact = wd.find_element(By.CSS_SELECTOR, 'td input').get_attribute('value')
+                all_phones = cells[5].text
+                self.contact_cache.append(Contact(firstname=firstname, lastname=lastname, id=id_contact,
+                                                  all_phones_from_home_page=all_phones))
+        return list(self.contact_cache)
 
     def update_contact_by_index(self, index, new_contact_data):
         wd = self.app.wd
@@ -55,31 +91,6 @@ class ContactHelper:
         wd.switch_to.alert.accept()
         self.return_to_home_page()
         self.contact_cache = None
-
-    def return_to_home_page(self):
-        wd = self.app.wd
-        if not (wd.current_url.endswith("/addressbook/") and len(wd.find_elements(By.ID, "content")) > 0):
-            wd.find_element(By.LINK_TEXT, "home").click()
-
-    def count(self):
-        wd = self.app.wd
-        self.return_to_home_page()
-        return len(wd.find_elements(By.CSS_SELECTOR, 'tr[name="entry"]'))
-
-    def get_contact_list(self):
-        if self.contact_cache is None:
-            wd = self.app.wd
-            self.app.open_home_page()
-            self.contact_cache = []
-            for element in wd.find_elements(By.CSS_SELECTOR, ' tr[name="entry"]'):
-                cells = element.find_elements(By.TAG_NAME, 'td')
-                lastname = element.find_element(By.XPATH, "td[2]").text
-                firstname = element.find_element(By.XPATH, "td[3]").text
-                id_contact = wd.find_element(By.CSS_SELECTOR, 'td input').get_attribute('value')
-                all_phones = cells[5].text
-                self.contact_cache.append(Contact(firstname=firstname, lastname=lastname, id=id_contact,
-                                                  all_phones_from_home_page=all_phones))
-        return list(self.contact_cache)
 
     def open_contact_to_edit_by_index(self, index):
         wd = self.app.wd

@@ -13,5 +13,5 @@ def test_update_some_contact_name(app):
     app.contact.update_contact_by_index(index, cont)
     new_contacts = app.contact.get_contact_list()
     assert len(old_contacts) == len(new_contacts)
-    old_contacts[index] = cont
+    # old_contacts[index] = cont
     assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)

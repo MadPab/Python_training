@@ -14,6 +14,15 @@ class GroupHelper:
         if not (wd.current_url.endswith("/group/php") and len(wd.find_elements(By.NAME, "new")) > 0):
             wd.find_element(By.LINK_TEXT, "groups").click()
 
+    def return_to_group_page(self):
+        wd = self.app.wd
+        wd.find_element(By.LINK_TEXT, "group page").click()
+
+    def count(self):
+        wd = self.app.wd
+        self.open_group_page()
+        return len(wd.find_elements(By.NAME, "selected[]"))
+
     def select_group_by_index(self, index):
         wd = self.app.wd
         wd.find_elements(By.NAME, "selected[]")[index].click()
@@ -56,15 +65,6 @@ class GroupHelper:
         wd.find_element(By.NAME, "delete").click()
         self.return_to_group_page()
         self.group_cache = None
-
-    def return_to_group_page(self):
-        wd = self.app.wd
-        wd.find_element(By.LINK_TEXT, "group page").click()
-
-    def count(self):
-        wd = self.app.wd
-        self.open_group_page()
-        return len(wd.find_elements(By.NAME, "selected[]"))
 
     def get_group_list(self):
         if self.group_cache is None:
